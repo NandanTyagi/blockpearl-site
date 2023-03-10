@@ -17,7 +17,6 @@ padding-top: 20px;
 .main p {
     padding: 1rem;
     width: fit-content;
-
 }
 
 .buttons {
@@ -39,4 +38,11 @@ padding-top: 20px;
     padding: 0.4rem;
     border: none;
     cursor: pointer;
+}
+
+@media screen and (min-width: 499px) {
+    .main h2,
+    .main p {
+        text-align: center;
+    }
 }
