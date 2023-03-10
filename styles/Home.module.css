@@ -1,0 +1,42 @@
+.main section {
+max-width: 1280px;
+margin: auto;
+padding: 1.2rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.main h2 {
+color: black;
+text-align: left;
+padding-top: 40px;
+}
+
+.main p {
+    padding: 1rem;
+    width: fit-content;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.buttons button {
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    word-break: break-word;
+    padding: 0.4rem;
+    border: none;
+    cursor: pointer;
+}
