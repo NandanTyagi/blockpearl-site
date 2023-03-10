@@ -42,8 +42,8 @@ export default function Home() {
 
           <section>
             <div className={styles.buttons}>
-              <button>ENTREPRENEUR ENTER</button>
-              <button>
+              <button onClick={() => window.open('https://www.dapp.blockpearl.world', '_blank')}>ENTREPRENEUR ENTER</button>
+              <button onClick={() => window.open('ethereum:goerli:https://www.dapp.blockpearl.world', '_blank')}>
                 INVESTOR
                 <br />
                 ENTER
