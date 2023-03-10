@@ -37,7 +37,7 @@ export default function Home() {
         <section>
           <div className={styles.buttons}>
             <button>ENTREPRENEUR ENTER</button>
-            <button>INVESTOR ENTER</button>
+            <button>INVESTOR<br/>ENTER</button>
           </div>
         </section>
       </main>
