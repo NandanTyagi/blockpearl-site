@@ -11,11 +11,11 @@ align-items: center;
 .main h2 {
 color: black;
 text-align: left;
-padding-top: 20px;
+padding: 16px;
 }
 
 .main p {
-    padding: 1rem;
+    padding: 16px;
     width: fit-content;
 }
 
