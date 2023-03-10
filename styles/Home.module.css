@@ -1,22 +1,36 @@
+.main {
+    scroll-snap-type: y mandatory;
+    scroll-margin-top: 116px;
+    max-height: 90dvh;
+    overflow-y: scroll;
+}
+
 .main section {
 max-width: 1280px;
 margin: auto;
-padding: 1.2rem;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+padding: 10px 20px;
 }
 
 .main h2 {
 color: black;
 text-align: left;
-padding: 16px 16px 0 16px;
+padding: 156px 16px 0 16px;
+scroll-padding-top: 106px;
+}
+
+.main h3 {
+    padding: 156px 16px 0px 16px;
+    text-align: left;
 }
 
 .main p {
-    padding: 16px;
+    padding: 8px 16px;
     width: fit-content;
+}
+
+.main article {
+    min-height: 100dvh;
+    scroll-snap-align: start;
 }
 
 .buttons {
@@ -40,9 +54,22 @@ padding: 16px 16px 0 16px;
     cursor: pointer;
 }
 
+.main ul {
+    list-style-type: none;
+}
+
+.main ul p {
+    text-align: left;
+}
+
+
 @media screen and (min-width: 499px) {
     .main h2,
     .main p {
         text-align: center;
+    }
+
+    .main ul {
+        max-width: 700px;
     }
 }
