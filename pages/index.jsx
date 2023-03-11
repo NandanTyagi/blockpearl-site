@@ -5,6 +5,7 @@ import Header from "@/components/Header.jsx";
 import styles from "../styles/Home.module.css";
 import Footer from "@/components/Footer";
 
+
 export default function Home() {
   return (
     <>
@@ -43,7 +44,7 @@ export default function Home() {
           <section>
             <div className={styles.buttons}>
               <button onClick={() => window.open('https://www.dapp.blockpearl.world', '_blank')}>ENTREPRENEUR ENTER</button>
-              <button onClick={() => window.open('ethereum:goerli:https://www.dapp.blockpearl.world', '_blank')}>
+              <button onClick={() => window.open('https://www.dapp.blockpearl.world', '_blank')}>
                 INVESTOR
                 <br />
                 ENTER
