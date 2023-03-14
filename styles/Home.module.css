@@ -3,6 +3,15 @@
     scroll-margin-top: 116px;
     max-height: 90dvh;
     overflow-y: scroll;
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main article {
+max-width: 1080px;
 }
 
 .main section {

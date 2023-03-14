@@ -43,3 +43,9 @@ padding-top: 8px;
     text-decoration: none;
     color: unset;
 }
+
+@media screen and (min-width: 499px) {
+    .footerImageWrapper img {
+        width: 100px;
+    }
+}

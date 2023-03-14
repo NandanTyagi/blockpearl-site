@@ -17,7 +17,7 @@ const Header = () => {
                 <div className={styles.header}>
             <div className={styles.headerWrapper}>
 
-                    <Link className={styles.link} href={"ethereum:goerli:https://dapp.blockpearl.world/"} target="_blank" rel="noopener noreferrer" title={'Go to dAapp'}>
+                    <Link className={styles.link} href={"https://dapp.blockpearl.world/"} target="_blank" rel="noopener noreferrer" title={'Go to dAapp'}>
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_609_2)">
                                 <rect width="48" height="48" fill="white" />
